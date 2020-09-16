@@ -1,0 +1,76 @@
+.banner {
+  background-image: linear-gradient(180deg, rgba(58,11,85,0.36878501400560226) 0%, rgba(0,0,0,0.15309873949579833) 100%), url("https://source.unsplash.com/random");
+  padding: 200px 0;
+  background-size: cover;
+}
+
+.container {
+  width: 700px;   /* This sets the width */
+  margin: 50px auto; /* This automatically sets left/right margins */
+}
+
+body {
+   margin: 0px;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 38px;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-size: 30px;
+  font-weight: lighter;
+  color: white;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 27px;
+  color: #A0A0A0;
+  font-weight: lighter;
+  line-height: 1.5;
+  letter-spacing: 2px
+}
+
+a {
+  font-family: 'Lora';
+  font-size: 25px;
+  color: #A0A0A0;
+  text-decoration: none;
+  background-color: #EDFFEA;
+
+}
+
+a:hover {
+  background: radial-gradient(circle, rgba(4,52,43,0.1) 0%, rgba(35,94,83,0.15309873949579833) 100%);
+}
+
+p {
+  font-family: 'Lora';
+  font-size: 18px;
+  font-weight: 300;
+  color: #494949;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
